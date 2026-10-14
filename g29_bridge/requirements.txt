@@ -1,0 +1,2 @@
+pygame-ce==2.5.8
+vgamepad==0.1.0

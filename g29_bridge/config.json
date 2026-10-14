@@ -1,0 +1,35 @@
+{
+  "wheel_name_contains": "G29",
+
+  "steering": {
+    "axis": 0,
+    "wheel_rotation_degrees": 900,
+    "steering_lock_degrees": 270,
+    "deadzone": 0.01,
+    "anti_deadzone": 0.0,
+    "curve": 1.0,
+    "invert": false
+  },
+
+  "throttle": { "axis": 1, "invert": true, "deadzone": 0.03 },
+  "brake":    { "axis": 2, "invert": true, "deadzone": 0.03 },
+  "clutch":   { "axis": 3, "invert": true, "deadzone": 0.05, "maps_to": "none" },
+
+  "buttons": {
+    "0": "A",
+    "1": "X",
+    "2": "B",
+    "3": "Y",
+    "4": "RIGHT_SHOULDER",
+    "5": "LEFT_SHOULDER",
+    "6": "RIGHT_THUMB",
+    "7": "LEFT_THUMB",
+    "8": "BACK",
+    "9": "START",
+    "24": "GUIDE"
+  },
+
+  "dpad_hat": 0,
+  "forward_rumble": true,
+  "poll_hz": 250
+}
